@@ -1,0 +1,22 @@
+{
+  "name": "@hackerqed/prompt.js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "pnpm run build"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "author": "HackerQED",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^20.0.0"
+  },
+  "packageManager": "pnpm@9.9.0"
+}
